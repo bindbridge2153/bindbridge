@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Package, Shield, Leaf, Zap, ArrowRight,
+  Package, Shield, Zap, ArrowRight,
   Users, Award, TrendingUp, Box, Wrench, ChevronLeft, ChevronRight,
   ShoppingCart, Smile, TreePine, Car, Cpu, Heart, Plane, Coffee, HardHat
 } from 'lucide-react';

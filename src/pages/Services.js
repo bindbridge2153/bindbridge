@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Package, Users, Award, Wrench } from 'lucide-react';
+import { Users, Award, Wrench } from 'lucide-react';
 import './Services.css';
 
 const Services = () => {
