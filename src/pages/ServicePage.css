@@ -1,0 +1,85 @@
+.service-hero {
+  position: relative;
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-bg) 100%);
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+}
+
+.service-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.service-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 20px;
+  transition: gap 0.3s ease;
+}
+
+.back-link:hover {
+  gap: 12px;
+}
+
+.service-details {
+  padding: 80px 0;
+}
+
+.service-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.service-icon-large {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 30px;
+  background: linear-gradient(135deg, var(--primary-color), #1e3f5a);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.service-content h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.service-content h3 {
+  color: var(--primary-color);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.service-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.service-content ul {
+  margin: 20px 0 30px 20px;
+}
+
+.service-content li {
+  font-size: 1.05rem;
+  line-height: 2;
+  color: #555;
+}
